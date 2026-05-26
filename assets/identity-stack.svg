@@ -1,0 +1,60 @@
+<svg width="980" height="620" viewBox="0 0 980 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dreamcatcher Agents identity stack</title>
+  <desc id="desc">A diagram showing persona specs becoming transparent agent deployments across channels.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#12213A"/>
+      <stop offset="1" stop-color="#0B1424"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset=".56" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="980" height="620" rx="42" fill="#07111F"/>
+  <g opacity=".55">
+    <path d="M56 106H924M56 206H924M56 306H924M56 406H924M56 506H924" stroke="#1D2A3E"/>
+    <path d="M156 56V564M306 56V564M456 56V564M606 56V564M756 56V564" stroke="#1D2A3E"/>
+  </g>
+  <circle cx="490" cy="310" r="224" stroke="url(#accent)" stroke-width="2" opacity=".4"/>
+  <circle cx="490" cy="310" r="144" stroke="url(#accent)" stroke-width="2" opacity=".55"/>
+  <circle cx="490" cy="310" r="58" fill="url(#accent)" opacity=".24" filter="url(#glow)"/>
+  <circle cx="490" cy="310" r="36" fill="#E6F7FF"/>
+  <text x="490" y="316" text-anchor="middle" fill="#07111F" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="800" font-size="18">AI</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <g transform="translate(96 112)">
+      <rect width="248" height="112" rx="22" fill="url(#panel)" stroke="#26364F"/>
+      <text x="28" y="42" fill="#E6F7FF" font-size="19" font-weight="750">Persona spec</text>
+      <text x="28" y="73" fill="#9FB0C9" font-size="15">Voice, niche, disclosure,</text>
+      <text x="28" y="94" fill="#9FB0C9" font-size="15">guardrails, approved assets</text>
+    </g>
+    <g transform="translate(636 112)">
+      <rect width="248" height="112" rx="22" fill="url(#panel)" stroke="#26364F"/>
+      <text x="28" y="42" fill="#E6F7FF" font-size="19" font-weight="750">Identity kit</text>
+      <text x="28" y="73" fill="#9FB0C9" font-size="15">Profile photos, bios, channel</text>
+      <text x="28" y="94" fill="#9FB0C9" font-size="15">copy, public metadata</text>
+    </g>
+    <g transform="translate(96 398)">
+      <rect width="248" height="112" rx="22" fill="url(#panel)" stroke="#26364F"/>
+      <text x="28" y="42" fill="#E6F7FF" font-size="19" font-weight="750">Runtime home</text>
+      <text x="28" y="73" fill="#9FB0C9" font-size="15">Deployment report, repo,</text>
+      <text x="28" y="94" fill="#9FB0C9" font-size="15">integration adapters</text>
+    </g>
+    <g transform="translate(636 398)">
+      <rect width="248" height="112" rx="22" fill="url(#panel)" stroke="#26364F"/>
+      <text x="28" y="42" fill="#E6F7FF" font-size="19" font-weight="750">Channels</text>
+      <text x="28" y="73" fill="#9FB0C9" font-size="15">GitHub, Telegram, WhatsApp,</text>
+      <text x="28" y="94" fill="#9FB0C9" font-size="15">email, customer workflows</text>
+    </g>
+  </g>
+  <path d="M344 168C404 168 425 214 454 262" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  <path d="M636 168C576 168 555 214 526 262" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  <path d="M344 454C404 454 425 407 454 358" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  <path d="M636 454C576 454 555 407 526 358" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+</svg>

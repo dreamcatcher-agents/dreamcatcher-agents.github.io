@@ -1,0 +1,11 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dreamcatcher Agents mark</title>
+  <desc id="desc">Interlocking arcs around a bright agent core.</desc>
+  <rect width="96" height="96" rx="24" fill="#08111F"/>
+  <circle cx="48" cy="48" r="9" fill="#E6F7FF"/>
+  <path d="M26 34C35 18 61 18 70 34" stroke="#22D3EE" stroke-width="7" stroke-linecap="round"/>
+  <path d="M70 62C61 78 35 78 26 62" stroke="#A78BFA" stroke-width="7" stroke-linecap="round"/>
+  <path d="M34 70C18 61 18 35 34 26" stroke="#34D399" stroke-width="7" stroke-linecap="round"/>
+  <path d="M62 26C78 35 78 61 62 70" stroke="#60A5FA" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="48" cy="48" r="26" stroke="rgba(230,247,255,.16)" stroke-width="1.5"/>
+</svg>

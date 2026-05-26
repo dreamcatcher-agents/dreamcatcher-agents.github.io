@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dreamcatcher Agents — transparent AI-agent identities</title>
+  <meta name="description" content="Dreamcatcher Agents is the public home for transparent, customer-facing AI-agent personas, identity kits, and deployment-ready guardrails.">
+  <link rel="canonical" href="https://agents.dreamcatcher.ai/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dreamcatcher Agents">
+  <meta property="og:description" content="Transparent AI-agent personas, identity kits, and deployment-ready customer-facing guardrails.">
+  <meta property="og:url" content="https://agents.dreamcatcher.ai/">
+  <meta name="theme-color" content="#07111f">
+  <link rel="icon" href="assets/brand-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" aria-label="Primary navigation">
+    <a class="brand" href="/" aria-label="Dreamcatcher Agents home">
+      <img src="assets/brand-mark.svg" alt="" width="40" height="40" aria-hidden="true">
+      <span>Dreamcatcher Agents</span>
+    </a>
+    <nav>
+      <a href="#roster">Roster</a>
+      <a href="#operating-model">Operating model</a>
+      <a href="https://github.com/dreamcatcher-agents/personas">Catalog</a>
+      <a class="nav-pill" href="https://github.com/dreamcatcher-agents">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Public identity layer for customer-facing AI</p>
+        <h1 id="hero-title">Transparent agent personas, ready to deploy without pretending to be human.</h1>
+        <p class="lede">Dreamcatcher Agents keeps persona specs, profile imagery, channel bios, and deployment guardrails in one auditable place so AI agents can show up consistently across GitHub, Telegram, WhatsApp, email, and customer workflows.</p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button primary" href="https://github.com/dreamcatcher-agents/personas">Open persona catalog</a>
+          <a class="button secondary" href="https://github.com/dreamcatcher-agents/personas/tree/main/features">Read agent-readable specs</a>
+        </div>
+      </div>
+      <figure class="hero-card" aria-label="Identity stack diagram">
+        <img src="assets/identity-stack.svg" alt="Diagram of persona specs, identity kits, runtime homes, and channels feeding a transparent AI agent identity." width="980" height="620">
+        <figcaption>One canonical identity kit per agent, reused across channels and deployments.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section-shell principles" aria-label="Operating principles">
+      <article>
+        <span class="principle-number">01</span>
+        <h2>Transparent</h2>
+        <p>Public profiles and signatures disclose that these are fictional AI-agent identities.</p>
+      </article>
+      <article>
+        <span class="principle-number">02</span>
+        <h2>Consistent</h2>
+        <p>Voice, niche, bio, avatar, and platform copy are sourced from one approved spec.</p>
+      </article>
+      <article>
+        <span class="principle-number">03</span>
+        <h2>Auditable</h2>
+        <p>Specs, generated assets, and rollout requirements live in version control.</p>
+      </article>
+    </section>
+
+    <section id="roster" class="section-shell roster" aria-labelledby="roster-title">
+      <div class="section-heading">
+        <p class="eyebrow">Initial lineup</p>
+        <h2 id="roster-title">Five deployable operating niches</h2>
+        <p>Each persona has a public brief, platform-ready assets, and a narrow customer-facing job to do.</p>
+      </div>
+
+      <div class="agent-grid">
+        <a class="agent-card" href="https://github.com/dreamcatcher-agents/personas/tree/main/personas/alex-carter">
+          <span class="agent-role">Operations Concierge</span>
+          <h3>Alex Carter</h3>
+          <p>Calm execution partner for executive assistance, workflow coordination, and implementation follow-through.</p>
+        </a>
+        <a class="agent-card" href="https://github.com/dreamcatcher-agents/personas/tree/main/personas/miles-hart">
+          <span class="agent-role">Technical Liaison</span>
+          <h3>Miles Hart</h3>
+          <p>Precise technical agent for API integrations, developer relations, systems explanation, and research handoffs.</p>
+        </a>
+        <a class="agent-card" href="https://github.com/dreamcatcher-agents/personas/tree/main/personas/maya-voss">
+          <span class="agent-role">Strategy Operator</span>
+          <h3>Maya Voss</h3>
+          <p>Strategic operator for prioritization, market synthesis, negotiation prep, and turning goals into leverage.</p>
+        </a>
+        <a class="agent-card" href="https://github.com/dreamcatcher-agents/personas/tree/main/personas/lena-vale">
+          <span class="agent-role">Customer Success Partner</span>
+          <h3>Lena Vale</h3>
+          <p>Warm customer-care agent for onboarding, support triage, reminders, scheduling, and account continuity.</p>
+        </a>
+        <a class="agent-card" href="https://github.com/dreamcatcher-agents/personas/tree/main/personas/sofia-reed">
+          <span class="agent-role">Commercial Concierge</span>
+          <h3>Sofia Reed</h3>
+          <p>Commercial follow-through for sales support, vendor coordination, proposal follow-up, and relationship care.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="operating-model" class="section-shell split" aria-labelledby="model-title">
+      <div>
+        <p class="eyebrow">How this repo family works</p>
+        <h2 id="model-title">Identity first, runtime second.</h2>
+        <p>Deployments should choose a persona from the catalog, reuse the approved assets, keep disclosure language intact, and link runtime-specific repos or reports back to the canonical spec.</p>
+      </div>
+      <div class="model-list" role="list">
+        <a role="listitem" href="https://github.com/dreamcatcher-agents/personas/blob/main/manifests/personas.yaml">
+          <strong>Machine-readable roster</strong>
+          <span>Use manifests/personas.yaml as the deployment index.</span>
+        </a>
+        <a role="listitem" href="https://github.com/dreamcatcher-agents/personas/tree/main/orgs/dreamcatcher-agents">
+          <strong>Organization identity kit</strong>
+          <span>Public org copy, avatar, banner, and profile metadata.</span>
+        </a>
+        <a role="listitem" href="https://github.com/dreamcatcher-agents/personas/tree/main/features">
+          <strong>Agent-readable requirements</strong>
+          <span>Gherkin features for transparency, consistency, and rollout checks.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-shell disclosure" aria-label="Transparency disclosure">
+      <p><strong>Disclosure:</strong> Dreamcatcher Agents personas are fictional adult AI-agent identities. They are designed for clear customer communication without implying that an account is a human employee.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>© Dreamcatcher Agents</span>
+    <span class="footer-links">
+      <a href="https://github.com/dreamcatcher-agents">GitHub organization</a>
+      <a href="https://github.com/dreamcatcher-agents/personas">Persona catalog</a>
+    </span>
+  </footer>
+</body>
+</html>
