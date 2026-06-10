@@ -346,6 +346,13 @@ h1 {
 
 .agent-card p { margin-bottom: 0; }
 
+.agent-card .agent-contact {
+  margin-top: 12px;
+  color: rgba(226, 232, 240, .88);
+  font: 700 12px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace;
+  word-break: break-word;
+}
+
 .split {
   display: grid;
   grid-template-columns: minmax(0, .82fr) minmax(360px, .78fr);
